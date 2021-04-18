@@ -22,8 +22,9 @@ python app.py
 
 
 ## Endpoints
--GET /product
--GET /product/:id
--POST /product
--PUT /product/:id
--DELETE /product/:id
+|API|ENDPOINT|
+|GET |/product|
+|GET |/product/:id|
+|POST |/product|
+|PUT |/product/:id|
+|DELETE|/product/:id|
