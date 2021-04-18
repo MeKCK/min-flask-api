@@ -25,6 +25,7 @@ python app.py
 
 ## Endpoints
 |API|ENDPOINT|
+|------|------|
 |GET |/product|
 |GET |/product/:id|
 |POST |/product|
