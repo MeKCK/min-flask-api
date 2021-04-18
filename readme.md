@@ -5,19 +5,21 @@ API using:
     Marshmallow
 
 Using Pipenv():
-# Activate venv
+## Activate venv
 $ pipenv shell
 
-# Install dependencies
+## Install dependencies
 $ pipenv install
 
-# Create DB
+## Create DB
+```
 $ python
->> from app import db
->> db.create_all()
->> exit()
+>>>from app import db
+>>>db.create_all()
+>>>exit()
+```
 
-# Run Server (http://localhst:5000)
+## Run Server (http://localhst:5000)
 python app.py
 
 
